@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Převody předpon</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Převody předpon soustavy SI</h1>
+        </header>
+    <nav>
+        <ul>
+            <li class="nav"><a href="index.html" class="gray-button">Kalkulačka</a></li>
+            <li><a href="si.html" class="gray-button">Tabulka předpon</a></li>
+            <li><a href="test.html" class="gray-button">Test</a></li>
+            <li><a href="https://cs.wikipedia.org/wiki/P%C5%99edpona_soustavy_SI" class="gray-button">Wikipedie</a></li>
+            
+        </ul>
+    </nav>
+    <div class="spacer"></div>
+    <h1>Kalkulačka</h1>
+    <div class="spacer"></div>
+    <form id="prevodPredpon">
+        <label for="value">Zadejte hodnotu:</label>
+        <input type="number" id="value" name="value" step="any" required>
+        
+        <label for="zPredpony">Z předpony:</label>
+        <select id="zPredpony" name="zPredpony">
+       
+            <option value="yokto">Yokto (y)</option>
+            <option value="zepto">Zepto (z)</option>
+            <option value="atto">Atto (a)</option>
+            <option value="femto">Femto (f)</option>
+            <option value="piko">Piko (p)</option>
+            <option value="nano">Nano (n)</option>
+            <option value="mikro">Mikro (µ)</option>
+            <option value="mili">Mili (m)</option>
+            <option value=" " selected>Jedna </option>
+            <option value="kilo">Kilo (k)</option>
+            <option value="mega">Mega (M)</option>
+            <option value="giga">Giga (G)</option>
+            <option value="tera">Tera (T)</option>
+            <option value="peta">Peta (P)</option>
+            <option value="exa">Exa (E)</option>
+            <option value="zetta">Zetta (Z)</option>
+            <option value="yotta">Yotta (Y)</option>
+           
+        </select>
+        
+        <label for="doPredpony">Na předponu:</label>
+        <select id="doPredpony" name="doPredpony">
+          
+            <option value="yokto">Yokto (y)</option>
+            <option value="zepto">Zepto (z)</option>
+            <option value="atto">Atto (a)</option>
+            <option value="femto">Femto (f)</option>
+            <option value="piko">Piko (p)</option>
+            <option value="nano">Nano (n)</option>
+            <option value="mikro">Mikro (µ)</option>
+            <option value="mili">Mili (m)</option>
+            <option value=" " selected>Jedna </option>
+            <option value="kilo">Kilo (k)</option>
+            <option value="mega">Mega (M)</option>
+            <option value="giga">Giga (G)</option>
+            <option value="tera">Tera (T)</option>
+            <option value="peta">Peta (P)</option>
+            <option value="exa">Exa (E)</option>
+            <option value="zetta">Zetta (Z)</option>
+            <option value="yotta">Yotta (Y)</option>
+          
+        </select>
+        
+        <button type="submit" id="button-calculator">Převést</button>
+        <div id="vysledek">
+        </form>
+     
+        </div>
+        
+    
+    
+    <script src="calculator.js"></script>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    
+<footer>
+    <p>František Drahota <a href="mailto:fra.drahota@gmail.com">e-mail</a></p>
+</footer>   
+    
+</body>
+</html>
